@@ -1,3 +1,2 @@
-tasks:
-  - init: curl -L https://foundry.paradigm.xyz | bash 
-    command: echo "export PATH=\"$PATH:~/.foundry/bin\"" >> ~/.bashrc && source ~/.bashrc && foundryup
+image: 
+  file: .gitpod.Dockerfile
