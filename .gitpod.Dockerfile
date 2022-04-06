@@ -1,2 +1,2 @@
-FROM docker pull ghcr.io/gakonst/foundry:latest
+FROM ghcr.io/gakonst/foundry:latest
 
