@@ -1,4 +1,2 @@
-FROM gitpod/workspace-full
-
-RUN curl -L https://foundry.paradigm.xyz | bash
+FROM docker pull ghcr.io/gakonst/foundry:latest
 
