@@ -1,5 +1,3 @@
 tasks:
   - init: curl -L https://foundry.paradigm.xyz | bash 
-    env:
-        PATH: "/home/gitpod/.foundry/bin/foundryup:$PATH"
     command: foundryup
