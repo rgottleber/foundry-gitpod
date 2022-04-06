@@ -1,3 +1,3 @@
 tasks:
   - init: curl -L https://foundry.paradigm.xyz | bash 
-    command: source /home/gitpod/.bashrc && foundryup
+    command: echo "~/.foundry/bin:$PATH" >> ~/.bashrc && source ~/.bashrc && foundryup
